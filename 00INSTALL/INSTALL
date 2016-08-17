@@ -12,6 +12,10 @@ Installation on Debian jessie 8.5 amd64
 This was the Ubuntu 64 bit package.  Figured I would try this before
 downloading the source.
 
+"Sublime Text may be downloaded and evaluated for free, however a license must
+be purchased[1] for continued use.  There is currently no enforced time limit
+for the evaluation."
+
 $ wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb
 
 2. Install package:
@@ -40,5 +44,9 @@ This installed Sublime Text Build 3114 without issue.
 
 Links
 =====
+[1] purchased
+price: USD $70
+https://www.sublimetext.com/buy
+
 Sublime Text 3 downloads
 https://www.sublimetext.com/3
