@@ -8,6 +8,10 @@ Sublime related links
 
 Links
 =====
+Sublime Text download
+Available as Ubuntu 64-bit or tarball
+https://www.sublimetext.com/3
+
 GoSublime for Sublime Text
 Text editor plugin
 https://github.com/DisposaBoy/GoSublime
