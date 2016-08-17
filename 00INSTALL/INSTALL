@@ -1,0 +1,43 @@
+INSTALL
+Created Wed Aug 17 10:26:08 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+Install Sublime Text
+
+
+Installation of Sublime Text on Debian jessie 8.5 amd64
+
+1. Download sublime-text_build-3114_amd64.deb
+This was the Ubuntu 64 bit package.  Figured I would try this before
+downloading the source.
+
+$ wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb
+
+2. Install package:
+# dpkg -i sublime-text_build-3114_amd64.deb 
+Selecting previously unselected package sublime-text.
+(Reading database ... 387249 files and directories currently installed.)
+Preparing to unpack sublime-text_build-3114_amd64.deb ...
+Unpacking sublime-text (3114) ...
+Setting up sublime-text (3114) ...
+Processing triggers for hicolor-icon-theme (0.13-1) ...
+Processing triggers for desktop-file-utils (0.22-1) ...
+Processing triggers for gnome-menus (3.13.3-6) ...
+Processing triggers for mime-support (3.58) ...
+# 
+
+NOTE: Aptitude threw a 'Couldn't find package "."' error.
+      i.e. Likely wanted the deb in a repository.
+
+
+This installed Sublime Text Build 3114 without issue.
+
+3. Run Sublime Text.  Sublime Text is now available in gnome under:
+  Applications > Programming > Sublime Text
+
+
+
+Links
+=====
+Sublime Text 3 downloads
+https://www.sublimetext.com/3
