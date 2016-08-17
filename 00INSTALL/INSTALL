@@ -2,11 +2,12 @@ INSTALL
 Created Wed Aug 17 10:26:08 AKDT 2016
 Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
-Install Sublime Text
+
+Installation Sublime Text
 
 
-Installation of Sublime Text on Debian jessie 8.5 amd64
-
+Installation on Debian jessie 8.5 amd64
+======================================
 1. Download sublime-text_build-3114_amd64.deb
 This was the Ubuntu 64 bit package.  Figured I would try this before
 downloading the source.
