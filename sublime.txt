@@ -14,6 +14,13 @@ performance.
 This is the favorite editor of coworker Whitham Reeve.
 
 
+Keystrokes
+==========
+Save                 ctrl+s
+Font size increase   ctrl+=
+Font size decrease   ctrl+-
+
+
 Font size
 =========
 Font was a bit small enlarged with:
