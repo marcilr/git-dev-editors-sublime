@@ -40,6 +40,45 @@ This installed Sublime Text Build 3114 without issue.
 3. Run Sublime Text.  Sublime Text is now available in gnome under:
   Applications > Programming > Sublime Text
 
+4. Install the GoSublime plugin
+"Run the command git clone https://github.com/DisposaBoy/GoSublime from within
+the Sublime Text Packages directory.  The location of your Sublime Text
+Packages directory can be found by clicking the menu: Preferences > Browse
+Packages...."
+
+i. Run Sublime in gnome:
+Applications > Progamming > Sublime Text
+
+ii. In Sublime determine packages directory:
+Preferences > Browse Packages...
+
+This opens the ~/.config/sublime-text-3/Packages packages in a new window.
+
+iii. Change to Packages directory:
+$ cd ~/.config/sublime-text-3/Packages
+
+iv. Install the GoSublime plugin:
+$ git clone https://github.com/DisposaBoy/GoSublime
+Cloning into 'GoSublime'...
+remote: Counting objects: 6377, done.
+remote: Total 6377 (delta 0), reused 0 (delta 0), pack-reused 6377
+Receiving objects: 100% (6377/6377), 2.11 MiB | 427.00 KiB/s, done.
+Resolving deltas: 100% (3353/3353), done.
+Checking connectivity... done.
+$
+
+v. Verify GoSublime plugin installation.  Ran Sublime and this displayed
+CHANGELOG.md and GoSublime's usage file:
+  ~/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md
+  ~/.config/sublime-text-3/Packages/GoSublime/USAGE.md
+
+5. Test Sublime Text by opening go file:
+File > Open File...
+
+Select ~/git/gci/projects/generator-alarms/src/db/db.go
+
+Looks good!  Go syntax high-lighting is correct.
+
 
 
 Links
@@ -47,6 +86,11 @@ Links
 [1] purchased
 price: USD $70
 https://www.sublimetext.com/buy
+
+GoSublime for Sublime Text
+A Golang plugin collection for SublimeText **3**,
+providing code completion and other IDE-like features.
+https://github.com/DisposaBoy/GoSublime
 
 Sublime Text 3 downloads
 https://www.sublimetext.com/3
