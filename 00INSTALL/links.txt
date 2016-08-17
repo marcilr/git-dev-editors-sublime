@@ -9,7 +9,8 @@ Installation Sublime Text relatd links
 Links
 =====
 GoSublime for Sublime Text
-Text editor plugin
+A Golang plugin collection for SublimeText **3**,
+providing code completion and other IDE-like features.
 https://github.com/DisposaBoy/GoSublime
 
 Sublime Text 3 downloads
