@@ -3,7 +3,7 @@ Created Tue Aug 16 16:33:10 AKDT 2016
 Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 
-Sublime test editor
+Sublime text editor
 
 
 This is the favorite editor of coworker Whitham Reeve.
