@@ -8,6 +8,9 @@ Installation Sublime Text relatd links
 
 Links
 =====
+GoSublime for Sublime Text
+Text editor plugin
+https://github.com/DisposaBoy/GoSublime
+
 Sublime Text 3 downloads
 https://www.sublimetext.com/3
-
