@@ -13,8 +13,9 @@ Text editor plugin
 https://github.com/DisposaBoy/GoSublime
 
 Sublime Text is a sophisticated text editor for code, markup and prose.
-You'll love the slick user interface, extraordinary features and amazing performance.
-Looks like Sublime Text 3, Build 3114, 64 bit is available for Ubuntu
+You'll love the slick user interface, extraordinary features and amazing
+performance.  Looks like Sublime Text 3, Build 3114, 64 bit is available
+for Ubuntu or tarball download.
 https://www.sublimetext.com/
 
 Testing in Go by example: Part 2
