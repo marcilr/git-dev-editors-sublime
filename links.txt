@@ -30,3 +30,6 @@ Testing in Go by example: Part 2
 Tests that aren't easy to execute will be ignored.
 Had GoSublime link
 https://smartystreets.com/blog/2015/02/go-testing-part-2-running-tests
+
+Using Sublime Text for Go Development   <===
+https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/
