@@ -78,7 +78,47 @@ File > Open File...
 Select ~/git/gci/projects/generator-alarms/src/db/db.go
 
 Looks good!  Go syntax high-lighting is correct.
-  
+
+
+6. On opening db.go got a GOPATH error:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks`  seciton of USAGE.md for info
+
+Checking `Quirks` in 
+  ~/.config/sublime-text-3/Packages/GoSublime/USAGE.md:16
+
+Quirks
+------
+
+This section assumes you know what `GOPATH` is and how to set it.  If you
+don't, please see http://golang.$
+
+In some systems, environment variables are not passed around as expected.
+The result of which is that some commands e.g `go build` don't work
+as the command cannot be found or `GOPATH` is not set. To get around this
+the simplest thing to do is to set these variables in the settings file.
+See the documentation for the `env` and/or `shell` setting, both documented
+in the default settings file `Packages/User/GoSublime.sublime-settings`
+
+Configured ~/.config/sublime-text-3/Packages/GoSublime/\
+GoSublime.sublime-settings:9 with GOPATH:
+
+// you may set specific environment variables here
+// e.g "env": { "PATH": "$HOME/go/bin:$PATH" }
+// in values, $PATH and ${PATH} are replaced with
+// the corresponding environment(PATH) variable, if it exists.
+"env": { "GOPATH": "$HOME/gospace" },
+
+That did the trick no more GOPATH warnings when opening go files
+in Sublime.
+
+Very nice.
+
+
+
+
+
+
 
 
 Links
