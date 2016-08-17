@@ -12,6 +12,9 @@ Sublime Text download
 Available as Ubuntu 64-bit or tarball
 https://www.sublimetext.com/3
 
+Sublime Text 3 Documentation
+http://www.sublimetext.com/docs/3/
+
 GoSublime for Sublime Text
 A Golang plugin collection for SublimeText **3**,
 providing code completion and other IDE-like features.
