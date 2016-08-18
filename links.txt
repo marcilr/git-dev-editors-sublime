@@ -8,6 +8,11 @@ Sublime related links
 
 Links
 =====
+GoSublime + GoImports = :)
+Had enough? -- build failed: imported and not used: 'fmt' --
+Use of goimports to allevite these warnings
+http://michaelwhatcott.com/gosublime-goimports/
+
 Sublime Text download
 Available as Ubuntu 64-bit or tarball
 https://www.sublimetext.com/3
