@@ -1,0 +1,17 @@
+conf.txt
+Created Thu Dec  8 14:29:13 AKST 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Configuration
+
+
+Color Scheme:
+  Preferences > Color Scheme > All Hallow's Eve
+
+Larger Font:
+  Ctrl+=
+
+Smaller Font:
+  Ctrl+-
+
