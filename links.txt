@@ -8,6 +8,15 @@ Sublime related links
 
 Links
 =====
+Exclude files and folders from search in Sublime Text 3
+From Hanh Bui Thu Dec 14, 2017
+On Sublime Text 3, go to the top bar Sublime Text > \
+Preferences > Settings User (it might be slightly
+different in Windows) and add the following lines:
+"binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"],
+"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "tmp"]
+http://lugolabs.com/articles/90-exclude-files-and-folders-from-search-in-sublime-text-3
+
 GoSublime + GoImports = :)
 Had enough? -- build failed: imported and not used: 'fmt' --
 Use of goimports to allevite these warnings
