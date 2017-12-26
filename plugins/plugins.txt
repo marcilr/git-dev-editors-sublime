@@ -22,27 +22,15 @@ control.[1]  Once you have that installed, you can follow each
 package installation instruction by searching on
 packagecontrol.io site
 
+
+Links
+=====
 [1] install package control
 https://packagecontrol.io/installation
 
 [2] packagecontrol.io site
 https://packagecontrol.io/
 
-
-Filelist
-========
-GoSublime.sublime-settings
-  GoSublime plugin configuration file with GOPATH configured on line 9:
-  // you may set specific environment variables here
-  // e.g "env": { "PATH": "$HOME/go/bin:$PATH" }
-  // in values, $PATH and ${PATH} are replaced with
-  // the corresponding environment(PATH) variable, if it exists.
-  "env": { "GOPATH": "$HOME/gospace" },
-  ~/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings
-
-
-Links
-=====
 GoSublime for Sublime Text
 A Golang plugin collection for SublimeText **3**,
 providing code completion and other IDE-like features.
