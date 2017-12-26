@@ -1,0 +1,49 @@
+plugins.txt
+Created Tue Dec 26 09:44:00 AKST 2017
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Plugins
+
+
+List of use plugins from GCI's Hanh Bui December 26, 2017:
+
+Hope things are going well with your Ruby on Rails effort.
+I found the following Sublime Text plugins to be very useful.
+
+o BeautifyRuby
+o BracketHighlighter
+o Highlight
+o Indent XML
+o JSON Reindent
+
+Before you can use plugins, you’ll need to install package
+control.[1]  Once you have that installed, you can follow each
+package installation instruction by searching on
+packagecontrol.io site
+
+[1] install package control
+https://packagecontrol.io/installation
+
+[2] packagecontrol.io site
+https://packagecontrol.io/
+
+
+Filelist
+========
+GoSublime.sublime-settings
+  GoSublime plugin configuration file with GOPATH configured on line 9:
+  // you may set specific environment variables here
+  // e.g "env": { "PATH": "$HOME/go/bin:$PATH" }
+  // in values, $PATH and ${PATH} are replaced with
+  // the corresponding environment(PATH) variable, if it exists.
+  "env": { "GOPATH": "$HOME/gospace" },
+  ~/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings
+
+
+Links
+=====
+GoSublime for Sublime Text
+A Golang plugin collection for SublimeText **3**,
+providing code completion and other IDE-like features.
+https://github.com/DisposaBoy/GoSublime
