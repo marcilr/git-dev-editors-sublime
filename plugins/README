@@ -3,6 +3,8 @@ Created Wed Aug 17 13:04:13 AKDT 2016
 Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 
+
+
 Filelist
 ========
 GoSublime.sublime-settings
@@ -13,6 +15,9 @@ GoSublime.sublime-settings
   // the corresponding environment(PATH) variable, if it exists.
   "env": { "GOPATH": "$HOME/gospace" },
   ~/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings
+
+plugins.txt
+  Plugins for sublime text
 
 
 Links
