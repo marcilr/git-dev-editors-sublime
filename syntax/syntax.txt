@@ -4,3 +4,20 @@ by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Syntax for sublime
+
+
+ctrl-F             Select all occurences
+ctrl-U             Undo selection
+
+ctrl-enter         Insert line below the current line
+ctrl-shift-enter   Insert line above the current line
+
+ctrl-shift-up      Move current line up one line
+ctrl-shift-down    Move current line down one line
+
+
+Links
+=====
+Sublime Text 3 Cheat Sheet
+https://www.shortcutfoo.com/app/dojos/sublime-text-3-win/cheatsheet
+
