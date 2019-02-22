@@ -16,3 +16,6 @@ links.txt
 
 sublime.ext
   Sublime text editor
+
+syntax/
+  Syntax
