@@ -40,6 +40,9 @@ performance.  Looks like Sublime Text 3, Build 3114, 64 bit is available
 for Ubuntu or tarball download.
 https://www.sublimetext.com/
 
+Support
+https://www.sublimetext.com/support
+
 Testing in Go by example: Part 2
 Tests that aren't easy to execute will be ignored.
 Had GoSublime link
