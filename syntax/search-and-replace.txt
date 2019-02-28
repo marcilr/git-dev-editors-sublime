@@ -6,5 +6,23 @@ by Raymond E. Marcil <marcilr@gmail.com>
 Search and replace
 
 
-To search and replace a block of text in Sublime
+To search and replace a block of text in Sublime just hit ctrl-F
+and paste block of text into the search box.
 
+Hit Enter to continue finding next matching block of text.
+
+
+ctrl-F   Intiate search
+Esc      Exit search
+
+
+
+Links
+=====
+Search and Replace – Single File
+o Searching
+o Incremental Search
+o Replacing Text
+o Tips
+o Multiline Search
+http://docs.sublimetext.info/en/latest/search_and_replace/search_and_replace.html
