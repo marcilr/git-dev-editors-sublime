@@ -7,6 +7,7 @@ Syntax for sublime
 
 
 ctrl-F             Select all occurences
+ctrl-H             Replacement value
 ctrl-U             Undo selection
 
 ctrl-enter         Insert line below the current line
