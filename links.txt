@@ -22,6 +22,9 @@ Had enough? -- build failed: imported and not used: 'fmt' --
 Use of goimports to allevite these warnings
 http://michaelwhatcott.com/gosublime-goimports/
 
+Sublime text editor
+https://www.sublime.com
+
 Sublime Text download
 Available as Ubuntu 64-bit or tarball
 https://www.sublimetext.com/3
