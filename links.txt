@@ -25,7 +25,7 @@ http://michaelwhatcott.com/gosublime-goimports/
 Sublime text editor
 https://www.sublime.com
 
-Sublime Text download
+Sublime Text 3 Download
 Available as Ubuntu 64-bit or tarball
 https://www.sublimetext.com/3
 
