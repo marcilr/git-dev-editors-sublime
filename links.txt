@@ -22,6 +22,9 @@ Had enough? -- build failed: imported and not used: 'fmt' --
 Use of goimports to allevite these warnings
 http://michaelwhatcott.com/gosublime-goimports/
 
+Linux Package Manager Repositories
+https://www.sublimetext.com/docs/3/linux_repositories.html
+
 Sublime text editor
 https://www.sublime.com
 
