@@ -13,5 +13,8 @@ A Golang plugin collection for SublimeText **3**,
 providing code completion and other IDE-like features.
 https://github.com/DisposaBoy/GoSublime
 
+Linux Package Manager Repositories
+https://www.sublimetext.com/docs/3/linux_respositories.html
+
 Sublime Text 3 downloads
 https://www.sublimetext.com/3
