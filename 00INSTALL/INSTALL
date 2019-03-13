@@ -89,7 +89,25 @@ $
 
 Installation procedure looks good.
 
-5. Test sublime
+5. Create subl and sublime symlinks for easy execution of
+sublime_text:
+
+$ sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl
+$ type subl
+subl is /usr/local/bin/subl
+$
+
+$ sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/sublime
+$ type sublime
+sublime is /usr/local/bin/sublime
+$
+
+5. Test sublime via sylinks:
+$ subl      <=== Launches unregistered Sublime Text v3.2 Build 3200
+$ sublime   <=== Launches unregistered Sublime Text v3.2 Build 3200
+
+Working well.
+
 
 --Linux Package Manager Repositories
   https://www.sublimetext.com/docs/3/linux_respositories.html
@@ -97,7 +115,7 @@ Installation procedure looks good.
 
 
 Installation on Debian jessie 8.5 amd64
-======================================
+=======================================
 1. Download sublime-text_build-3114_amd64.deb
 This was the Ubuntu 64 bit package.  Figured I would try this before
 downloading the source.
