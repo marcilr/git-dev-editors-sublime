@@ -3,7 +3,13 @@ Created Wed Aug 17 10:26:08 AKDT 2016
 Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 
-Installation Sublime Text
+Installation of Sublime Text
+
+
+"Sublime Text may be downloaded and evaluated for free,
+however a license must be purchased[1] for continued use.
+There is currently no enforced time limit for the
+evaluation."
 
 
 Installation on Debian stretch 9.8 amd64
@@ -89,7 +95,14 @@ $
 
 Installation procedure looks good.
 
-5. Create subl and sublime symlinks for easy execution of
+5. Sublime Text includes a command-line helper called subl.
+Using the command-line helper, you can open files and folders
+and perform other actions from the command line.  Before using
+subl, make sure it is on your PATH.  To put subl on your PATH,
+you may need to add directories to PATH or use symbolic links.
+--docs.sublimetext.info/en/latest/command_line/command_line.html
+
+Create subl and sublime symlinks for easy execution of
 sublime_text:
 
 $ sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl
@@ -101,6 +114,7 @@ $ sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/sublime
 $ type sublime
 sublime is /usr/local/bin/sublime
 $
+--askubuntu.com/questions/273034/lauching-sublime-text-from-command-line
 
 5. Test sublime via sylinks:
 $ subl      <=== Launches unregistered Sublime Text v3.2 Build 3200
@@ -108,128 +122,8 @@ $ sublime   <=== Launches unregistered Sublime Text v3.2 Build 3200
 
 Working well.
 
-
 --Linux Package Manager Repositories
   https://www.sublimetext.com/docs/3/linux_respositories.html
-
-
-
-Installation on Debian jessie 8.5 amd64
-=======================================
-1. Download sublime-text_build-3114_amd64.deb
-This was the Ubuntu 64 bit package.  Figured I would try this before
-downloading the source.
-
-"Sublime Text may be downloaded and evaluated for free, however a license must
-be purchased[1] for continued use.  There is currently no enforced time limit
-for the evaluation."
-
-$ wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb
-
-2. Install package:
-# dpkg -i sublime-text_build-3114_amd64.deb 
-Selecting previously unselected package sublime-text.
-(Reading database ... 387249 files and directories currently installed.)
-Preparing to unpack sublime-text_build-3114_amd64.deb ...
-Unpacking sublime-text (3114) ...
-Setting up sublime-text (3114) ...
-Processing triggers for hicolor-icon-theme (0.13-1) ...
-Processing triggers for desktop-file-utils (0.22-1) ...
-Processing triggers for gnome-menus (3.13.3-6) ...
-Processing triggers for mime-support (3.58) ...
-# 
-
-NOTE: Aptitude threw a 'Couldn't find package "."' error.
-      i.e. Likely wanted the deb in a repository.
-
-
-This installed Sublime Text Build 3114 without issue.
-
-3. Run Sublime Text.  Sublime Text is now available in gnome under:
-  Applications > Programming > Sublime Text
-
-4. Install the GoSublime plugin
-"Run the command git clone https://github.com/DisposaBoy/GoSublime from within
-the Sublime Text Packages directory.  The location of your Sublime Text
-Packages directory can be found by clicking the menu: Preferences > Browse
-Packages...."
-
-i. Run Sublime in gnome:
-Applications > Progamming > Sublime Text
-
-ii. In Sublime determine packages directory:
-Preferences > Browse Packages...
-
-This opens the ~/.config/sublime-text-3/Packages packages in a new window.
-
-iii. Change to Packages directory:
-$ cd ~/.config/sublime-text-3/Packages
-
-iv. Install the GoSublime plugin:
-$ git clone https://github.com/DisposaBoy/GoSublime
-Cloning into 'GoSublime'...
-remote: Counting objects: 6377, done.
-remote: Total 6377 (delta 0), reused 0 (delta 0), pack-reused 6377
-Receiving objects: 100% (6377/6377), 2.11 MiB | 427.00 KiB/s, done.
-Resolving deltas: 100% (3353/3353), done.
-Checking connectivity... done.
-$
-
-v. Verify GoSublime plugin installation.  Ran Sublime and this displayed
-CHANGELOG.md and GoSublime's usage file:
-  ~/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md
-  ~/.config/sublime-text-3/Packages/GoSublime/USAGE.md
-
-5. Test Sublime Text by opening go file:
-File > Open File...
-
-Select ~/git/gci/projects/generator-alarms/src/db/db.go
-
-Looks good!  Go syntax high-lighting is correct.
-
-
-6. On opening db.go got a GOPATH error:
-MarGo: Missing required environment variables: GOPATH
-See the `Quirks`  seciton of USAGE.md for info
-
-Checking `Quirks` in 
-  ~/.config/sublime-text-3/Packages/GoSublime/USAGE.md:16
-
-Quirks
-------
-
-This section assumes you know what `GOPATH` is and how to set it.  If you
-don't, please see http://golang.$
-
-In some systems, environment variables are not passed around as expected.
-The result of which is that some commands e.g `go build` don't work
-as the command cannot be found or `GOPATH` is not set. To get around this
-the simplest thing to do is to set these variables in the settings file.
-See the documentation for the `env` and/or `shell` setting, both documented
-in the default settings file `Packages/User/GoSublime.sublime-settings`
-
-Configured ~/.config/sublime-text-3/Packages/GoSublime/\
-GoSublime.sublime-settings:9 with GOPATH:
-
-// you may set specific environment variables here
-// e.g "env": { "PATH": "$HOME/go/bin:$PATH" }
-// in values, $PATH and ${PATH} are replaced with
-// the corresponding environment(PATH) variable, if it exists.
-"env": { "GOPATH": "$HOME/gospace" },
-
-That did the trick no more GOPATH warnings when opening go files
-in Sublime.
-
-Very nice.
-
-7. The default color scheme, under Perferences > Color Scheme is set to
-Monokai.  Not terrible but it sure looks like a Brown background to me.
-
-Updated to Sunburst, with a black background, is exactly what I want.
-
-
-
-
 
 
 Links
@@ -239,10 +133,16 @@ price: USD $80 (as of March 13, 2019)
 Should purchase a copy.
 https://www.sublimetext.com/buy
 
+Command Line Usage
+http://docs.sublimetext.info/en/latest/command_line/command_line.html
+
 GoSublime for Sublime Text
 A Golang plugin collection for SublimeText **3**,
 providing code completion and other IDE-like features.
 https://github.com/DisposaBoy/GoSublime
+
+Lauching Sublime Text From Command Line
+https://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line
 
 Sublime Text 3 downloads
 https://www.sublimetext.com/3
