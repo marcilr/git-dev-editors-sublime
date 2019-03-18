@@ -17,6 +17,9 @@ different in Windows) and add the following lines:
 "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "tmp"]
 http://lugolabs.com/articles/90-exclude-files-and-folders-from-search-in-sublime-text-3
 
+Git Integration
+https://www.sublimetext.com/docs/3/git_integration.html
+
 GoSublime + GoImports = :)
 Had enough? -- build failed: imported and not used: 'fmt' --
 Use of goimports to allevite these warnings
