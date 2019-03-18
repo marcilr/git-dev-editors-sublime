@@ -1,0 +1,26 @@
+purchase.txt
+Created Mon Mar 18 10:35:26 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Purchase
+
+
+Email: marcilr@gmail.com
+Name:  Raymond E. Marcil
+       This name will appear on the license key
+
+x This license is for me
+  The license is for the business:
+
+Sublime Text
+Single User License
+
+Total: USD $80 (platinum)
+
+
+
+Links
+=====
+Buy Sublime Text
+https://www.sublimetext.com/buy?v=3.0
