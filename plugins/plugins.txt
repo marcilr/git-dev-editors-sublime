@@ -27,6 +27,51 @@ Noticed the ctrl+ display in and ctrl- zooms out.
 Very nice.
 
 
+Installed packages
+==================
+From Sublime Text v3.2.1, Build 3207 
+default packages installed:
+
+
+Package                Installed
+--------------------------------
+Ant                    4/30/2019
+Ant Buildfile          4/30/2019
+Ant Color Scheme       4/30/2019
+
+BeautifyLatex          4/30/2019
+BeautifyRuby           4/30/2019
+BeautifyRust           4/30/2019
+
+BracketHighlighter     4/30/2019
+
+C#                     4/30/2019
+
+Highlight              4/30/2019
+
+Indent XML             4/30/2019
+
+JSON Reindent          4/30/2019
+
+Package Control        4/30/2019 (1st package installed)
+
+
+
+Install package
+===============
+Use Package Control package to install packages
+
+1. Open Pack Control package
+Preferences > Package Control > Package Control: Install Package
+
+2. At the popup type in and search for desire package
+or hit Esc to abort.
+
+Pretty short default list.
+
+
+
+
 List installed packages
 =====================
 Verify installation under:
