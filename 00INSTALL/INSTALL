@@ -18,6 +18,22 @@ Still need to tweek background color and text.
 
 Fri Aug 30 09:21:31 AKDT 2019
 =============================
+Configure background and text color:
+
+1.open Submline text Editor
+2. Press Ctrl+Shift+P
+3. In type Select theme then chose the side meu color.
+4. Select Color Scheme color Choose the background that u want
+Thankx
+
+NOTE: Certain that all the color schemes suck (rem - Aug 30, 2019)
+
+--Change Background Color
+  General Discussion
+  Shooaiib, Sep 2018
+  https://forum.sublimetext.com/t/change-background-color/26707/6
+
+
 Installation on Debian stretch 9.9.0 amd64 (virtualbox machine)
 
 1. Install the GPG key:
