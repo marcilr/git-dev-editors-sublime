@@ -12,6 +12,144 @@ There is currently no enforced time limit for the
 evaluation."
 
 
+
+Fri Aug 30 09:21:31 AKDT 2019
+=============================
+Installation on Debian stretch 9.9.0 amd64 (virtualbox machine)
+
+1. Install the GPG key:
+
+$ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+[sudo] password for remarcil: 
+OK
+$
+
+
+2. Ensure apt is set up to work with https sources:
+
+$ sudo apt-get install apt-transport-https
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+apt-transport-https is already the newest version (1.4.9).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+$
+
+3. Select the channel to use:
+
+Stable <===
+$ echo "deb https://download.sublimetext.com/ apt/stable/" | \
+sudo tee /etc/apt/sources.list.d/sublime-text.list
+deb https://download.sublimetext.com/ apt/stable/
+$
+
+Dev
+$ echo "deb https://download.sublimetext.com/ apt/dev/" | \
+sudo tee /etc/apt/sources.list.d/sublime-text.list
+deb https://download.sublimetext.com/ apt/dev/
+$
+
+
+4. Update apt sources and install Sublime Text
+$ sudo apt-get update
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease        
+Get:2 https://download.sublimetext.com apt/dev/ InRelease [2,559 B] 
+Ign:4 http://ftp.us.debian.org/debian stretch InRelease                  
+Hit:5 https://download.virtualbox.org/virtualbox/debian stretch InRelease
+Hit:6 http://dl.google.com/linux/chrome/deb stable Release               
+Get:7 https://download.sublimetext.com apt/dev/ Packages [1,013 B]       
+Get:3 http://security-cdn.debian.org/debian-security stretch/updates InRelease [94.3 kB]
+Get:9 http://ftp.us.debian.org/debian stretch-updates InRelease [91.0 kB]
+Hit:10 http://ftp.us.debian.org/debian stretch Release         
+Fetched 189 kB in 2s (80.4 kB/s)
+Reading package lists... Done
+$ 
+
+$ sudo apt-get install sublime-text
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following NEW packages will be installed:
+  sublime-text
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 9,851 kB of archives.
+After this operation, 34.9 MB of additional disk space will be used.
+Get:1 https://download.sublimetext.com apt/dev/ sublime-text 3208 [9,851 kB]
+Fetched 9,851 kB in 15s (632 kB/s)                                             
+Selecting previously unselected package sublime-text.
+(Reading database ... 192856 files and directories currently installed.)
+Preparing to unpack .../sublime-text_3208_amd64.deb ...
+Unpacking sublime-text (3208) ...
+Processing triggers for mime-support (3.60) ...
+Processing triggers for desktop-file-utils (0.23-1) ...
+Processing triggers for hicolor-icon-theme (0.15-1) ...
+Setting up sublime-text (3208) ...
+$
+
+Installation procedure looks good.
+
+
+5. Sublime Text includes a command-line helper called subl.
+Using the command-line helper, you can open files and folders
+and perform other actions from the command line.  Before using
+subl, make sure it is on your PATH.  To put subl on your PATH,
+you may need to add directories to PATH or use symbolic links.
+--docs.sublimetext.info/en/latest/command_line/command_line.html
+
+Create subl and sublime symlinks for easy execution of
+sublime_text:
+
+$ sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl
+
+$ type subl
+subl is /usr/local/bin/subl
+$
+
+$ sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/sublime
+
+$ type sublime
+sublime is /usr/local/bin/sublime
+$ 
+
+6. Test sublime via sylinks:
+$ subl      <=== Launches unregistered Sublime Text v3.2 Build 3200
+$ sublime   <=== Launches unregistered Sublime Text v3.2 Build 3200
+
+Working well.
+
+--Linux Package Manager Repositories
+  https://www.sublimetext.com/docs/3/linux_respositories.html
+
+7. License key.  On first subl launch got Enter License window:
+
+Enter License
+Enter your license key below.  You can purchase one from
+https://www.sublimetest.com/buy
+
+
+<copy/paste license here from gmail
+ Sublime Text License Key
+ Mon, Mar 18 2019, 10:38AM>
+
+click Use License
+
+8. Got micro popup:
+"Thanks for puchasing!"
+click OK
+
+9. Help > About Sublime Text
+Sublime Text
+Registered to Raymond E. Marcil
+Single User License
+Copyright 2006-2019 Sublime HQ Pty Ltd
+Dev Channel, Build 3208
+
+Looks good!
+
+
+Wed Aug 17 10:26:08 AKDT 2016
+=============================
+
 Installation on Debian stretch 9.8 amd64
 ========================================
 1. Install the GPG key:
@@ -22,7 +160,7 @@ sudo apt-key add -
 OK
 $
 
-2.Ensure apt is set up to work with https sources:
+2. Ensure apt is set up to work with https sources:
 
 $ sudo apt-get install apt-transport-https
 Reading package lists... Done
@@ -116,7 +254,8 @@ sublime is /usr/local/bin/sublime
 $
 --askubuntu.com/questions/273034/lauching-sublime-text-from-command-line
 
-5. Test sublime via sylinks:
+
+6. Test sublime via sylinks:
 $ subl      <=== Launches unregistered Sublime Text v3.2 Build 3200
 $ sublime   <=== Launches unregistered Sublime Text v3.2 Build 3200
 
