@@ -11,6 +11,11 @@ background-color.txt
 font-size.txt
   Font size
 
+packages.txt
+  Packages
+  Sublime Text
+  http://www.sublimetext.com/docs/3/packages.html
+
 search-and-replace.txt
   Search and replace
 

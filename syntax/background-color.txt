@@ -6,6 +6,11 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 Background color
 
 
+To do this think I need to edit the theme files like:
+  Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme
+
+Unable to search Packages directory
+
 
 Links
 =====
