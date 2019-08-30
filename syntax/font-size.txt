@@ -5,6 +5,16 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 
 Font Size
 
+Select Preferences > Settings
+
+Under Preferences.sublime-settings - User add:
+{
+ ...
+ "font_size": 12,
+ ...
+}
+
+
 
 Themes stored under:
   ~/.config/sublime-text-3/Packages/Ordinary.tmTheme
@@ -38,6 +48,10 @@ For reference, here there is the full file (as found in ST2).
 
 Links
 =====
+How to change background color of Sublime Text 3?
+Solid details here
+https://stackoverflow.com/questions/48031678/how-to-change-background-color-of-sublime-text-3
+
 How to modify existing themes
 Sublime Forum
 https://forum.sublimetext.com/t/how-to-modify-existing-themes/12838
