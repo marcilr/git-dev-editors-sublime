@@ -15,3 +15,30 @@ Larger Font:
 Smaller Font:
   Ctrl+-
 
+
+1. Install Ordinary them create at:
+  https://tmtheme-editor.herokuapp.com/#!/editor/local/Monokai  
+
+$ mv Ordinary.tmTheme ~/.config/sublime-text-3/Packages/
+
+2. I sublime select Ordinary theme:
+ctrl + shift + P
+
+Select Theme
+  or
+Select Color Scheme
+
+Neither lists Ordinary theme.
+
+More work on this front...
+
+
+
+Links
+=====
+Where does sublime store themes?
+Linux: ~/.config/sublime-text-3/Packages
+OS X: ~/Library/Application Support/Sublime Text 3/Packages
+Windows Regular Install: C:\Users\YourUserName\AppData\Roaming\Sublime Text 3\Packages
+Windows Portable Install: InstallationFolder\Sublime Text 3\Data\Packages
+https://stackoverflow.com/questions/24329211/where-does-sublime-store-themes
