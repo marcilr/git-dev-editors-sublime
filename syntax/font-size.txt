@@ -6,15 +6,24 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 Font Size
 
 
+Themes stored under:
+  ~/.config/sublime-text-3/Packages/Ordinary.tmTheme
+
 To increase font  size:
 
-The answers are omitting the square brackets, in the case one is creating the file from scratch.
+The answers are omitting the square brackets, in the case one is creating
+the file from scratch.
 
-To recap, for the ST3 users who don't have the Default.sublime-theme file (which is actually the default configuration), the simplest procedure is:
+To recap, for the ST3 users who don't have the Default.sublime-theme file
+(which is actually the default configuration), the simplest procedure is:
 
-Navigate to Sublime Text -> Preferences -> Browse Packages
-Open the User directory
-Create a file named Default.sublime-theme (if you're using the default theme, otherwise use the theme name, e.g. Material-Theme-Darker.sublime-theme) with the following content (modify font.size as required):
+1. Navigate to Sublime Text -> Preferences -> Browse Packages
+
+2. Open the User directory
+
+3. Create a file named Default.sublime-theme (if you're using the default
+theme, otherwise use the theme name, e.g. Material-Theme-Darker.sublime-theme)
+with the following content (modify font.size as required):
 [
     {
         "class": "sidebar_label",
@@ -29,5 +38,9 @@ For reference, here there is the full file (as found in ST2).
 
 Links
 =====
+How to modify existing themes
+Sublime Forum
+https://forum.sublimetext.com/t/how-to-modify-existing-themes/12838
+
 Sublime Text 3 how to change the font size of the file sidebar?
 https://stackoverflow.com/questions/18288870/sublime-text-3-how-to-change-the-font-size-of-the-file-sidebar
