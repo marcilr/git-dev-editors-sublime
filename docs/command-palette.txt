@@ -7,7 +7,7 @@ Command Palette
 
 
 How to Use the Command Palette
-1. Press Ctrl+Shift+P
+1. Press Ctrl+Shift+P   (This works in Sublime Text Dev Channel, Build 3208)
 2. Select command
 
 
