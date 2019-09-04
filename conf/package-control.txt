@@ -24,4 +24,6 @@ Links
 =====
 How to install Babel (or other packages) in Sublime Text 3
 December 7, 2015, Aleszu Bajak
+Has:
+  Install Package Control in Sublime Text 3
 http://www.storybench.org/install-babel-packages-sublime-text-3/
