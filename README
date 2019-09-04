@@ -14,6 +14,9 @@ Filelist
 conf/
   Sublime Text configuration
 
+docs/
+  Documentation
+
 links.txt
   Sublime related links
 
