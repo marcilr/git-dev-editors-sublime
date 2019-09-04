@@ -12,3 +12,11 @@ Change Background Color
 by bvbowes, March 2017
 Sublime Forum
 https://forum.sublimetext.com/t/change-background-color/26707
+
+How to change background and text colors in Sublime Text 3
+My questions are:
+o How do I change the overall colors (background and font)?
+o How do I change the colors based on the file type that is open?
+Do I need to learn how to create a whole theme?
+https://stackoverflow.com/questions/27368674/how-to-change-background-and-text-colors-in-sublime-text-3
+
