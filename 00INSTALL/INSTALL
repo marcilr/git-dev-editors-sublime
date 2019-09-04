@@ -19,6 +19,21 @@ Still need to tweek background color and text.
 Version:
   Sublime Text, Dev Channel, Build 3208
 
+Debian 9.9.0 vm (Oracle VM Virtualbox)
+======================================
+$ apt-cache search sublime | grep ^sublime
+sublime-text - Sublime Text is a sophisticated text editor for code, markup and prose
+sublime-merge - Sublime Merge is a Git Client, from the makers of Sublime Text
+$ 
+
+
+On Debian 9.9.0 vm:
+$ dpkg -l | grep sublime
+ii  sublime-text   3208   amd64   Sublime Text is a sophisticated text editor \
+                                  for code, markup and prose
+$
+
+
 
 Fri Aug 30 09:21:31 AKDT 2019
 =============================
