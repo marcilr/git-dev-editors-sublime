@@ -3,7 +3,7 @@ Created Wed Aug 17 10:34:07 AKDT 2016
 Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 
-Installation Sublime Text relatd links
+Installation Sublime Text related links
 
 
 Links
@@ -12,6 +12,10 @@ GoSublime for Sublime Text
 A Golang plugin collection for SublimeText **3**,
 providing code completion and other IDE-like features.
 https://github.com/DisposaBoy/GoSublime
+
+How to Install Sublime Text Editor on Debian 10/9/8
+Written by Rahul, Updated on June 4, 2019
+https://tecadmin.net/install-sublime-text-editor-debian/
 
 Linux Package Manager Repositories
 https://www.sublimetext.com/docs/3/linux_respositories.html
