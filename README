@@ -17,6 +17,9 @@ conf/
 links.txt
   Sublime related links
 
+packages/
+  Packages
+
 sublime.ext
   Sublime text editor
 
