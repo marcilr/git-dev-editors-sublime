@@ -1,0 +1,16 @@
+links.txt
+Created Wed Sep  4 08:27:27 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package related links
+
+
+Links
+=====
+Package​Resource​Viewer
+Sublime Text plugin to view package resources.
+https://packagecontrol.io/packages/PackageResourceViewer
+
+package control
+http://wbond.net/sublime_packages/package_control
