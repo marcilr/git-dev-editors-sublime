@@ -7,4 +7,11 @@ Filelist
 ========
 command-palette.txt
   Command Palette
-  http://docs.sublimetext.info/en/latest/reference/command_palette.html
+  The command palette is fed entries with .sublime-commands files.
+
+  How to Use the Command Palette
+  1. Press Ctrl+Shift+P
+  2. Select command
+  --Command Palette
+    http://docs.sublimetext.info/en/latest/reference/command_palette.html
+
