@@ -13,3 +13,6 @@ conf.txt
 
 links.txt
   Configuration of sublime text related links
+
+package-control.txt
+  Package Control package
