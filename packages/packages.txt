@@ -6,9 +6,32 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 Packages for sublime text 3
 
 
+Installed under:
+  /opt/sublime_text/Packages/
+
+
 Wed Sep 25 10:52:22 AKDT 2019
 =============================
-Installed babel package on work sublime:
+o Set color scheme:   <=== Not set yet
+
+Observed that Preferences > Theme... displays:
+
+  Adaptive.sublime them    <=== Changed to this Sep 25, 2019
+  Theme - Default/adaptive
+
+  Default.sublime-theme
+  The-Default.
+
+
+1. Under color package at:
+   $ cd /opt/sublime_text/Packages 
+   $ less Color\ Scheme\ -\ Default.sublime-package 
+
+2. Copy the the color scheme the most matches requirements.
+
+
+
+o Installed babel package on work sublime:
 
 Babel
 Syntax definitions for ES6 JavaScript with React JSX extensions.
