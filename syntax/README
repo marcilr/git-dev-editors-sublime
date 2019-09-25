@@ -8,6 +8,21 @@ Filelist
 background-color.txt
   Background color
 
+command-pallete.txt
+  Command palette
+
+  To access command pallette:
+    linux:     ctrl+shift+p
+    windows:   ctrl+shift+p
+    Mac:       cmd+shift+p
+
+  How to use the command palette
+  1. Press Ctrl+Shift+P
+  2. Select command
+
+  --Command palette
+    http://docs.sublimetext.info/en/latest/reference/command_palette.html
+
 font-size.txt
   Font size
 
