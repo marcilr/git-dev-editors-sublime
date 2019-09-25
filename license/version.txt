@@ -5,6 +5,10 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 
 Version of Sublime Text
 
+
+Sublime Text 3
+
+
 In Sublime Text select Help > About Sublime Text
 
 This diplays:
@@ -13,3 +17,34 @@ This diplays:
   Single User License
   Copyright 2006-2019 Sublime HQ Pty Ltd
   Dev Channel Build 3210
+
+
+
+Dev Builds
+==========
+These are the in-progress versions of Sublime Text 3,
+and are updated more frequently.  Feel free to use them,
+but keep in mind you will be running less tested code,
+and you'll be seeing many more update notification prompts.
+Each release will normally have a topic in the forum.
+
+BUILD 3210
+  24 September 2019
+  Mac: Fixed a compatibility regression with some plugins
+...
+
+--www.sublimetext.com/3dev
+
+
+Links
+=====
+apt
+gpg key install and details for dev and stable
+https://www.sublimetext.com/docs/3/linux_repositories.html#apt
+
+Dev Builds
+Sublime Text
+https://www.sublimetext.com/3dev
+
+Linux Package Manager Repositories
+https://www.sublimetext.com/docs/3/linux_repositories.html
