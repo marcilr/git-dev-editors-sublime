@@ -1,0 +1,15 @@
+version.txt
+Created Wed Sep 25 10:41:32 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Version of Sublime Text
+
+In Sublime Text select Help > About Sublime Text
+
+This diplays:
+  Sublime Text
+  Registered to Raymond E. Marcil
+  Single User License
+  Copyright 2006-2019 Sublime HQ Pty Ltd
+  Dev Channel Build 3210
