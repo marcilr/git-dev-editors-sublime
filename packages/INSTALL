@@ -1,0 +1,24 @@
+INSTALL
+Created Wed Sep 25 10:31:14 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Installation of packages under sublime text 3
+
+1. Open command pallette with:
+   ctrl+shift+p
+
+2. In command package type 'package control'
+   select Package ControlL Install Package
+
+3. In package control window search for or select
+   the package to install.
+
+
+Links
+=====
+How to install Babel (or other packages) in Sublime Text 3
+http://www.storybench.org/install-babel-packages-sublime-text-3/
+
+Package Control
+https://packagecontrol.io/docs/usage   
