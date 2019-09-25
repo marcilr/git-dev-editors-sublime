@@ -3,5 +3,17 @@ Created Wed Sep  4 08:26:16 AKDT 2019
 Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 
 
-Packages
+Packages for sublime text 3
 
+
+Wed Sep 25 10:52:22 AKDT 2019
+=============================
+Installed babel package on work sublime:
+
+Babel
+Syntax definitions for ES6 JavaScript with React JSX extensions.
+--https://packagecontrol.io/packages/Babel
+
+1. command pallette: ctrl+shift+p
+2. Type: package control <enter>
+3. Type: babel <enter>
