@@ -1,0 +1,24 @@
+command-pallete.txt
+Created Wed Sep 25 10:23:59 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Command palette
+
+
+To access command pallette:
+  linux:     ctrl+shift+p
+  windows:   ctrl+shift+p
+  Mac:       cmd+shift+p
+
+
+How to use the command palette
+1. Press Ctrl+Shift+P
+2. Select command
+
+
+Links
+=====
+Command Palette
+http://docs.sublimetext.info/en/latest/reference/command_palette.html
+
