@@ -1,0 +1,32 @@
+version.txt
+Created Wed Oct 23 08:21:37 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Version
+
+
+Linux: Listing ~/.config should at least give away sublime-text-3,
+       if that’s your version.
+       --andersoyvind, Oct 2015
+         forum.sublimetext.com/t/what-version-am-i-using/938/4
+
+
+On Debian 9.9.0 (Stretch) vm:
+  $ ls -p .config/
+  dconf/          gtk-3.0/      mimeapps.list    Trolltech.conf    xfce4/
+  enchant/        inkscape/     pulse/           user-dirs.dirs    zathura/
+  google-chrome/  libreoffice/  sublime-text-3/  user-dirs.locale
+  gtk-2.0/        menus/        Thunar/          VirtualBox/
+  $
+
+Running sublime-text-3/
+
+
+Links
+=====
+What version am I using?
+Ideas and Feature Requests
+https://forum.sublimetext.com/t/what-version-am-i-using/938/4
+
+http://docs.sublimetext.info/en/latest/reference/settings.html#visual-settings
