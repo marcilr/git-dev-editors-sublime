@@ -28,3 +28,7 @@ sublime.ext
 
 syntax/
   Syntax
+
+version.txt
+  Running sublime text 3.
+
