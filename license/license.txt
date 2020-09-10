@@ -5,6 +5,25 @@ by Raymond E. Marcil <marcilr@gmail.com>
 
 License
 
+Search gmail for "sublime text" to track down copy of license:
+  Sublime HQ Pty Ltd
+  3/18/2019
+
+Entering the license details:
+
+1. Open Sublime Text, and select Help/Enter License from the menu.
+
+2. Copy the license above (including the BEGIN LICENSE and
+END LICENSE lines) and paste them into the license box.
+
+3. Press the Use License button and Sublime Text will enter into 
+licensed mode.
+
+Please find your invoice attached to this email.
+--Sublime Text License Key
+  SUBLIME HQ PTY LITD
+  3/18/2019
+
 
 price: $80
        Sublime Text may be downloaded and evaluated for free, however
