@@ -3,6 +3,16 @@ Created Tue Aug 16 16:32:25 AKDT 2016
 Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 
+
+Thu 10 Sep 2020 10:51:49 AM AKDT
+================================
+Purchased sublime on Monday March 18, 2019:
+
+$ grep -ni Purchase license/README
+11:purchase.txt
+12:  Purchase of sublime on Monday March 18, 2019
+
+
 Filelist
 ========
 00INSTALL/
